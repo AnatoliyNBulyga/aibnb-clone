@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb49a63e-8338-44f9-90a3-4af3b975ca9d" name="Changes" comment="" />
+    <list default="true" id="22344b84-85ca-4e40-a8a6-abf6dd7f1fdd" name="Changes" comment="The developing is finished">
+      <change afterPath="$PROJECT_DIR$/app/actions/getFavoriteListings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/actions/getReservations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/listings/[listingId]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/modals/SearchModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/favorites/FavoritesClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/favorites/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hooks/useSearchModal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/properties/PropertiesClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/properties/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reservations/ReservationsClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reservations/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/trips/TripsClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/trips/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/airbnb-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/actions/getListings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/actions/getListings.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/listings/ListingCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/listings/ListingCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/modals/RegisterModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/modals/RegisterModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/navbar/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/navbar/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/navbar/UserMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/navbar/UserMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/listings/[listingId]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/listings/[listingId]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,47 +50,50 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Rvpgk9GVbVVdLauIy7c9lJbEjV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2SCIj9yfA7eSpM3DRGRWEOEe1Hn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pet_projects/aibnb-clone/app/hooks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\pet_projects\\aibnb-clone\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pet_projects\aibnb-clone\app\hooks" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fb49a63e-8338-44f9-90a3-4af3b975ca9d" name="Changes" comment="" />
-      <created>1688140523076</created>
+      <changelist id="22344b84-85ca-4e40-a8a6-abf6dd7f1fdd" name="Changes" comment="" />
+      <created>1688644269012</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1688140523076</updated>
-      <workItem from="1688140524621" duration="414000" />
+      <updated>1688644269012</updated>
+      <workItem from="1688644270035" duration="2481000" />
+      <workItem from="1688726438545" duration="2401000" />
+      <workItem from="1688809406160" duration="6479000" />
+      <workItem from="1688895772145" duration="3032000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The developing is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="The developing is finished" />
   </component>
 </project>

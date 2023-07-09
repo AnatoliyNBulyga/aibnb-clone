@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { SafeUser } from "@/app/types";
+import {SafeReservation, SafeUser} from "@/app/types";
 import { useRouter } from "next/navigation";
 import useCountries from "@/app/hooks/useCountries";
 import {
@@ -15,7 +15,7 @@ import Button from "@/app/components/Button";
 
 interface ListingCardProps {
     data: SafeListing;
-    reservation?: Reservation;
+    reservation?: SafeReservation;
     onAction?: (id: string) => void;
     disabled?: boolean;
     actionLabel?: string;
